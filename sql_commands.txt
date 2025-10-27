@@ -1,0 +1,22 @@
+-- create database and use it
+CREATE DATABASE intern_demo;
+USE intern_demo;
+
+-- create table
+CREATE TABLE students (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(50),
+  domain VARCHAR(30),
+  score INT
+);
+
+-- insert some rows
+INSERT INTO students (name, domain, score)
+VALUES ('Aarav', 'Cloud', 95), ('Diya', 'DevOps', 89), ('Maya', 'Data', 92), (‘Tina’, ‘Cloud’, 90), (‘Joy’, ‘DevOps’, 93), (‘Sneha’, ‘Data’, 92);
+
+-- view rows
+SELECT * FROM students;
+
+-- cleanup (optional)
+-- DROP DATABASE intern_demo;
+
