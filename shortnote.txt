@@ -1,0 +1,1 @@
+I provisioned a MySQL Cloud SQL instance named `intern-mysql` in region ap-south-1 and enabled public access for my IP. I connected using MySQL Workbench, created the `intern_demo` database and `students` table, inserted sample rows, and verified them using SELECT queries.
